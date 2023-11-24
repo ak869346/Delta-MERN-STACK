@@ -1,0 +1,20 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(77, 255, 0, 0.6330);
+    /* transition: 2s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+#opac {
+    background-color: yellowgreen;
+    opacity: 0.5;
+}
+
+div:hover {
+    margin-top: 400px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
