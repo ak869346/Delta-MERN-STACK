@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        h1 {
+            background-color: yellow;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+        @media(width:400px) {
+            h1 {
+                background-color: red;
+                color: white;
+            }
+            div {
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+            }
+        }
+
+        @media(min-width:400px) {
+            h1 {
+                background-color: greenyellow;
+            }
+        }
+
+        @media(max-width:200px) {
+            h1 {
+                background-color: pink;
+            }
+        } 
+
+        @media(min-width:500px) and (max-width:800px) {
+            h1 {
+                background-color: magenta;
+            }
+        }
+
+        /* Oreientation based media query */
+
+        @media(orientation:landscape) {
+            h1 {
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Query in CSS</h1>
+    <div></div>
+</body>
+</html>
