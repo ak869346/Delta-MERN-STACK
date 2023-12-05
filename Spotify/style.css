@@ -1,0 +1,180 @@
+ body {
+    background-color: black;
+ }
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    height: 100px;
+    width: 300px;
+    color: grey;
+    justify-content: space-evenly;
+}
+
+.home i{
+    padding: 10px;
+}
+.search i {
+    padding: 10px;
+}
+
+.second {
+    height: 600px;
+    width: 300px;
+    background-color: #222222;
+    color: grey;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second img {
+    width: 20px;
+    height: 20px;
+}
+
+.top {
+    height: 20px;
+    width: 250px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(78,79,82);
+    margin-top: 20px;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.middle button {
+    margin-top: 30px;
+    border-radius: 34px;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+.bottom button {
+    margin-top: 24px;
+    border-radius: 34px;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+.bottom {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: rgb(78,79,82);
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.play {
+    color: white;
+    font-size: 16px;
+}
+.help {
+    color: #E5E5E5;
+    font-size: 14px;
+}
+
+
+nav i {
+    color: white;
+}
+
+.third {
+    height: 40px;
+    width: 80%;
+    position: absolute;
+    top: 10px;
+    left: 220x;
+    right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.admin {
+    margin-left: 920px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 34px;
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border-radius: 34px;
+    border: none;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.icolor {
+    color: white;
+}
+
+.heading {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.topH {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* background-color: #222222; */
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    color: whitesmoke;
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+}
+.card img {
+    height: 140px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.content h5{
+    color: black;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.content p {
+    color: black;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
