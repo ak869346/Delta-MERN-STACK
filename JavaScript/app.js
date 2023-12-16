@@ -227,8 +227,8 @@ let myLastName = prompt("Enter last Name");
 
 console.log(`Your full name is ${myName + " " + myLastName}`);
 
-
 let msg = "     Hello     ";
+
 
 
 
