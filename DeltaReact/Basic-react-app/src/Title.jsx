@@ -1,5 +1,6 @@
+import "./OneCard.css";
 function Title() {
-    return <h1>I am the Title</h1>
+    return <h2 className="Title">Blockbuster deal on Computer Accessories | Shop Now </h2>
 }
 
 export default Title;

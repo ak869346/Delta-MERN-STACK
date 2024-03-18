@@ -5,6 +5,10 @@ import Product from './Product.jsx';
 import ProductTab from './ProductTab.jsx';
 // import {Title} from './Title.jsx';  // named export...
 import Description from './Description.jsx';
+import Msg from './Msgbox.jsx';
+import FinalCard from './FinalCard.jsx';
+import Button from './Button.jsx';
+import Form from './Form.jsx';
 
 // function Title() {
 //   return <h1>I am the Title</h1>
@@ -19,15 +23,21 @@ function App() {
     <>
     {/* <button>Hello World</button>
     <p>This is paragraph</p> */}
-    {/* <Title />
-    <Description/>
+    {/* <Description/>
     <Title />
     <Description/> */}
 
     {/* <Product/>
     <Product/>
     <Product/> */}
-    <ProductTab/>
+    {/* <ProductTab/>
+    <Msg userName={"Ankit"} textColor={"blue"}/>
+    <Msg userName={"Pradeep"} textColor={"green"}/>
+    <Msg userName={"Vikash"} textColor={"yellow"}/> */}
+    {/* <Title/> */}
+    {/* <FinalCard/> */}
+    {/* <Button /> */}
+    <Form/>
     </>
   );
 }

@@ -1,0 +1,27 @@
+* {
+    background-color: grey;
+}
+
+.OneCard {
+    width: 320px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    color: black;
+}
+
+.FinalCard {
+    height: 250px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.Title {
+    color: black;
+}

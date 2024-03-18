@@ -75,7 +75,7 @@ app.get("/",(req,res)=> {
     try {
         connection.query(q,(err,result)=> {
             if(err) throw err;
-            console.log(result[0]['COUNT(*)']);
+            console.log(result[0]['COUNT(*)']); 
             res.send(result);
         });
     }
